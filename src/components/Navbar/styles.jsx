@@ -5,6 +5,7 @@ import { Link as LinkScroll } from "react-scroll";
 /*======== CSS Variables: ========*/
 const varHeaderHeight = "5rem";
 
+/*======== Components: ========*/
 export const Nav = styled.nav`
   background: #000;
   height: ${varHeaderHeight};
