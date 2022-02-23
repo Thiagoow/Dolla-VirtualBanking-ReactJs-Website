@@ -4,6 +4,8 @@ import { Link as LinkScroll } from "react-scroll";
 
 /*======== CSS Variables: ========*/
 const varHeaderHeight = "5rem";
+const primaryColor = "#01bf77";
+const altColor = "#0d9460";
 
 /*======== Components: ========*/
 export const Nav = styled.nav`
@@ -87,6 +89,35 @@ export const NavLinks = styled(LinkScroll)`
   cursor: pointer;
 
   &.active {
-    border-bottom: 3px solid #01bf77;
+    border-bottom: 3px solid ${primaryColor};
+  }
+`;
+
+export const NavBtn = styled.nav`
+  display: flex;
+  align-items: center;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+`;
+
+export const BtnLink = styled(Link)`
+  border-radius: 50px;
+  background: ${primaryColor};
+  white-space: nowrap;
+  padding: 10px 24px;
+  color: #000;
+  font-weight: 600;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2 ease-in-out;
+  text-decoration: none;
+
+  &:hover {
+    transition: all 0.2 ease-in-out;
+    background: ${altColor};
   }
 `;
