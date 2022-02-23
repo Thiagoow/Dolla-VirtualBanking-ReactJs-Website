@@ -12,10 +12,6 @@ import {
   BtnLink
 } from "./styles";
 
-/*======== Global Style & CSS Variables: ========
-import GlobalStyles from "../../assets/globalStyles";
-console.log(GlobalStyles); */
-
 const Navbar = () => {
   return (
     <>
