@@ -49,7 +49,7 @@ const zFixed = "100";
 const borderOutsideRadius = "15px";
 const borderInsideRadius = "20px";
 
-export const GlobalStyles = createGlobalStyle`
+const GlobalStyles = createGlobalStyle`
   /*========== CSS Reset ==========*/
   *,
   ::before,
@@ -67,3 +67,4 @@ export const GlobalStyles = createGlobalStyle`
     color: ${txtColor};
   }
 `;
+export default GlobalStyles;
