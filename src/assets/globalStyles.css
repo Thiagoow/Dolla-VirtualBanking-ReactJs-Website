@@ -7,3 +7,27 @@
   padding: 0;
   font-family: "Encode Sans Expanded", sans-serif;
 }
+
+:root {
+  --first-color: #01bf77;
+  --body-color: #010606;
+  --first-color-alt: #0d9466;
+  --scroll-bar-color: #c6c8dd;
+  --scroll-thumb-color: #646877;
+}
+
+/*========== SCROLL BAR ==========*/
+::-webkit-scrollbar {
+  width: 0.61rem;
+  background-color: var(--scroll-bar-color);
+  border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--first-color-alt);
+  border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--scroll-thumb-color);
+}

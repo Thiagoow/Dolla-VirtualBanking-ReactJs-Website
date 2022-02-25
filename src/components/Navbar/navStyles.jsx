@@ -5,7 +5,7 @@ import { Link as LinkScroll } from "react-scroll";
 /*======== CSS Variables: ========*/
 const varHeaderHeight = "5rem";
 const firstColor = "#01bf77";
-const firstAltColor = "#0d9460";
+const firstAltColor = "#0d9466";
 
 /*======== Components: ========*/
 export const Nav = styled.nav`
@@ -87,6 +87,10 @@ export const NavLinks = styled(LinkScroll)`
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
+
+  &.signUp {
+    color: ${firstColor};
+  }
 
   &.active {
     border-bottom: 3px solid ${firstColor};

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const bodyColor = "#010606";
 const firstColor = "#01bf77";
-const firstAltColor = "#0d9460";
+const firstAltColor = "#0d9466";
 
 export const SidebarContainer = styled.aside`
   position: fixed;
@@ -68,14 +68,15 @@ export const SideLinks = styled(LinkScroll)`
     transition: 0.2s ease-in-out;
   }
 
-  .logIn::after {
+  &.signUp {
     content: "";
-    position: relative;
-    //width: 65%;
-    border-bottom: 2px solid ${firstColor};
+    //position: relative;
+    display: flex;
+    justify-self: center;
+    width: 20%;
+    border-bottom: 4px solid ${firstColor};
     border-radius: 0.25rem;
-    /*  
-    top: 1.75rem;*/
+    margin-top: 0.6rem;
   }
 `;
 

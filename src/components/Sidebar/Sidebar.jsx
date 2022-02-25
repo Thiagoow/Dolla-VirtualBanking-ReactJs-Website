@@ -28,13 +28,13 @@ const Sidebar = ({ isOpen, toggle }) => {
           <SideLinks to="services" onClick={toggle}>
             Services
           </SideLinks>
-          <SideLinks to="logIn" className="logIn" onClick={toggle}>
-            Log In
+          <SideLinks to="signUp" className="signUp" onClick={toggle}>
+            Sign Up
           </SideLinks>
         </Menu>
 
         <BtnWrap>
-          <SideRoute to="signUp">Sign Up</SideRoute>
+          <SideRoute to="logIn">Log In</SideRoute>
         </BtnWrap>
       </Wrapper>
     </SidebarContainer>
