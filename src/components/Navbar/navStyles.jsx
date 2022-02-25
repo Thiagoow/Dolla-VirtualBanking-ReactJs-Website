@@ -92,6 +92,10 @@ export const NavLinks = styled(LinkScroll)`
     color: ${firstColor};
   }
 
+  &:hover {
+    color: ${firstAltColor};
+  }
+
   &.active {
     border-bottom: 3px solid ${firstColor};
   }
