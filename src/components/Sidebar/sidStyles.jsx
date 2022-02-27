@@ -4,8 +4,8 @@ import { Link as LinkScroll } from "react-scroll";
 import { Link } from "react-router-dom";
 
 const bodyColor = "#010606";
-const firstColor = "#01bf77";
-const firstAltColor = "#0d9466";
+const firstColor = "#00bb77";
+const firstAltColor = "#009955";
 
 export const SidebarContainer = styled.aside`
   position: fixed;

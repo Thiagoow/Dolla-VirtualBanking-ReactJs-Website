@@ -4,8 +4,8 @@ import { Link as LinkScroll } from "react-scroll";
 
 /*======== CSS Variables: ========*/
 const varHeaderHeight = "5rem";
-const firstColor = "#01bf77";
-const firstAltColor = "#0d9466";
+const firstColor = "#00bb77";
+const firstAltColor = "#009955";
 
 /*======== Components: ========*/
 export const Nav = styled.nav`
