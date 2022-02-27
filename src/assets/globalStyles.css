@@ -1,4 +1,5 @@
 /*========== Google Fonts ==========*/
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@200;400;600&display=swap");
 
 /*======= CSS Reset =======*/
 * {
@@ -9,8 +10,8 @@
 }
 
 :root {
-  --first-color: #00bb77;
   --body-color: #010606;
+  --first-color: #00bb77;
   --first-color-alt: #009955;
   --scroll-bar-color: #c6c8dd;
   --scroll-thumb-color: #646877;
@@ -24,7 +25,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: var(--first-color-alt);
+  background-color: var(--first-color);
   border-radius: 0.5rem;
 }
 

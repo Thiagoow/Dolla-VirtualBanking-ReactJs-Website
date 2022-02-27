@@ -77,6 +77,13 @@ export const SideLinks = styled(LinkScroll)`
     border-bottom: 4px solid ${firstColor};
     border-radius: 0.25rem;
     margin-top: 0.6rem;
+
+    @media (max-width: 426px) {
+      width: 30%;
+    }
+    @media (max-width: 322px) {
+      width: 40%;
+    }
   }
 `;
 
