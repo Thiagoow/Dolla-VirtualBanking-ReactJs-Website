@@ -9,6 +9,11 @@
   font-family: "Encode Sans Expanded", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+/*======= Variables =======*/
 :root {
   --body-color: #f3f3fc;
   --container-color: #010606;
