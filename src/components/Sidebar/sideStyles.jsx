@@ -3,7 +3,7 @@ import { FaTimes } from "react-icons/fa";
 import { Link as LinkScroll } from "react-scroll";
 import { Link } from "react-router-dom";
 
-const bodyColor = "#010606";
+const containerColor = "#010606";
 const firstColor = "#00bb77";
 const firstAltColor = "#009955";
 
@@ -12,7 +12,7 @@ export const SidebarContainer = styled.aside`
   z-index: 999;
   width: 100%;
   height: 100%;
-  background: ${bodyColor};
+  background: ${containerColor};
   display: grid;
   align-items: center;
   top: 0;
@@ -97,7 +97,7 @@ export const SideRoute = styled(Link)`
   background: ${firstColor};
   white-space: nowrap;
   padding: 16px 64px;
-  color: ${bodyColor};
+  color: ${containerColor};
   font-size: 16px;
   font-weight: 600;
   outline: none;

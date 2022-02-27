@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { Link } from "react-scroll";
 
-const bodyColor = "#010606";
+const containerColor = "#010606";
 const firstColor = "#00bb77";
 const firstAltColor = "#009955";
 

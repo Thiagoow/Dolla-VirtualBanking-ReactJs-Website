@@ -10,7 +10,8 @@
 }
 
 :root {
-  --body-color: #010606;
+  --body-color: #f3f3fc;
+  --container-color: #010606;
   --first-color: #00bb77;
   --first-color-alt: #009955;
   --scroll-bar-color: #c6c8dd;

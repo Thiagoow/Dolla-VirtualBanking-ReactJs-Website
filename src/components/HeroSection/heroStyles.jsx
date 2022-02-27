@@ -1,7 +1,8 @@
 import styled from "styled-components";
 import { MdKeyboardArrowRight, MdArrowForward } from "react-icons/md";
 
-const bodyColor = "#010606";
+const bodyColor = "#f3f3fc";
+const containerColor = "#010606";
 const firstColor = "#00bb77";
 const firstAltColor = "#009955";
 
