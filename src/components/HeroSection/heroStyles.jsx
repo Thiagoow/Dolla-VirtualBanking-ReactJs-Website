@@ -16,7 +16,7 @@ export const HeroContainer = styled.div`
   position: relative;
   z-index: 1;
 
-  //Make the video more darker than the original:
+  //Make the video more btnDarkTxter than the original:
   :before {
     content: "";
     position: absolute;

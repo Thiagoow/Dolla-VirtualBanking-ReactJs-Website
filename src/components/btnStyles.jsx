@@ -7,10 +7,10 @@ const firstAltColor = "#009955";
 
 export const Button = styled(Link)`
   border-radius: 50px;
-  background: ${({ primary }) => (primary ? "#00bb77" : "#010606")};
+  background: ${({ btnPrimary }) => (btnPrimary ? "#00bb77" : "#010606")};
   white-space: nowrap;
   padding: ${({ big }) => (big ? "14px 48px" : "12px 30px")};
-  color: ${({ dark }) => (dark ? "#010606" : "#fff")};
+  color: ${({ btnDarkTxt }) => (btnDarkTxt ? "#010606" : "#fff")};
   font-size: ${({ fontBig }) => (fontBig ? "20px" : "16px")};
   font-weight: 600;
   outline: none;
@@ -23,6 +23,9 @@ export const Button = styled(Link)`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: ${({ primary }) => (primary ? "#fff" : "#00bb77")};
+    background: ${({ btnPrimary }) => (btnPrimary ? "#009955" : "#fff")};
+    background: ${({ btnDarkTxtHover }) =>
+      btnDarkTxtHover ? "#fff" : "#00bb77"};
+    color: ${({ btnDarkTxtHover }) => (btnDarkTxtHover ? "#010606" : "#fff")};
   }
 `;

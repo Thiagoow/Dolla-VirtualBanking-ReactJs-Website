@@ -22,12 +22,15 @@ const InfoSection = ({
   imgStart,
   topLine,
   lightTxt,
-  darkTxt,
+  lightTxtSub,
   heading,
   subtitle,
   buttonTxt,
   img,
-  alt
+  alt,
+  btnPrimary,
+  btnDarkTxt,
+  btnDarkTxtHover
 }) => {
   return (
     <>
@@ -38,9 +41,21 @@ const InfoSection = ({
               <TxtWrapper>
                 <TopLine>{topLine}</TopLine>
                 <Heading lightTxt={lightTxt}>{heading}</Heading>
-                <Subtitle darkTxt={darkTxt}>{subtitle}</Subtitle>
+                <Subtitle lightTxtSub={lightTxtSub}>{subtitle}</Subtitle>
                 <BtnWrap>
-                  <Button to="home">{buttonTxt}</Button>
+                  <Button
+                    to="home"
+                    /* smooth={true}
+                    duration={500}
+                    spy={true} */
+                    exact="true"
+                    //offset={-80}
+                    btnPrimary={btnPrimary ? 1 : 0}
+                    btnDarkTxt={btnDarkTxt ? 1 : 0}
+                    btnDarkTxtHover={btnDarkTxtHover ? 1 : 0}
+                  >
+                    {buttonTxt}
+                  </Button>
                 </BtnWrap>
               </TxtWrapper>
             </Column1>

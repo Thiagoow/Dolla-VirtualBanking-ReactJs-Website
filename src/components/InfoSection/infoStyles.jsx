@@ -7,7 +7,7 @@ const firstAltColor = "#009955";
 
 export const InfoContainer = styled.div`
   color: #fff;
-  background: ${({ lightBg }) => (lightBg ? "#010606" : "#f3f3f3")};
+  background: ${({ lightBg }) => (lightBg ? "#f3f3f3" : "#010606")};
 
   @media (max-width: 768px) {
     padding: 6.25rem 0;
@@ -35,7 +35,7 @@ export const Row = styled.div`
 
   @media (max-width: 768px) {
     grid-template-areas: ${({ imgStart }) =>
-      imgStart ? `'col1 col2'` : `'col1 col1' 'col2 col2'`};
+      imgStart ? `'col2 col2' 'col1 col1'` : `'col1 col1' 'col2 col2'`};
   }
 `;
 
@@ -72,7 +72,7 @@ export const Heading = styled.h1`
   font-size: 2.2rem;
   line-height: 1.1;
   font-weight: 600;
-  color: ${({ lightTxt }) => (lightTxt ? "#010606" : "#f7f8f8")};
+  color: ${({ lightTxt }) => (lightTxt ? "#f7f8f8" : "#010606")};
 
   @media (max-width: 768px) {
     font-size: 2rem;
@@ -87,7 +87,7 @@ export const Subtitle = styled.p`
   margin-bottom: 2.2rem;
   font-size: 1.125rem;
   line-height: 24px;
-  color: ${({ darkTxt }) => (darkTxt ? "#fff" : "#010606")};
+  color: ${({ lightTxtSub }) => (lightTxtSub ? "#cccccc" : "#010606")};
 
   @media (max-width: 768px) {
     font-size: 1.12rem;
