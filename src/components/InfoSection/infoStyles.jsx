@@ -9,7 +9,7 @@ export const InfoContainer = styled.div`
   color: #fff;
   background: ${({ lightBg }) => (lightBg ? "#f3f3f3" : "#010606")};
 
-  @media (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     padding: 6.25rem 0;
   }
 `;
@@ -33,7 +33,7 @@ export const Row = styled.div`
   grid-template-areas: ${({ imgStart }) =>
     imgStart ? `'col2 col1'` : `'col1 col2'`};
 
-  @media (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     grid-template-areas: ${({ imgStart }) =>
       imgStart ? `'col2 col2' 'col1 col1'` : `'col1 col1' 'col2 col2'`};
   }
@@ -74,10 +74,10 @@ export const Heading = styled.h1`
   font-weight: 600;
   color: ${({ lightTxt }) => (lightTxt ? "#f7f8f8" : "#010606")};
 
-  @media (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     font-size: 2rem;
   }
-  @media (max-width: 580px) {
+  @media screen and (max-width: 580px) {
     font-size: 1.8rem;
   }
 `;
@@ -89,10 +89,10 @@ export const Subtitle = styled.p`
   line-height: 24px;
   color: ${({ lightTxtSub }) => (lightTxtSub ? "#cccccc" : "#010606")};
 
-  @media (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     font-size: 1.12rem;
   }
-  @media (max-width: 480px) {
+  @media screen and (max-width: 480px) {
     font-size: 1rem;
   }
 `;

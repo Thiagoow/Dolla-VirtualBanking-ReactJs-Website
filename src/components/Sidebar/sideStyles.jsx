@@ -46,7 +46,7 @@ export const Menu = styled.ul`
   grid-template-rows: repeat(6, 80px);
   text-align: center;
 
-  @media (max-width: 480px) {
+  @media screen and (max-width: 480px) {
     grid-template-rows: repeat(6, 60px);
   }
 `;
@@ -78,10 +78,10 @@ export const SideLinks = styled(LinkScroll)`
     border-radius: 0.25rem;
     margin-top: 0.6rem;
 
-    @media (max-width: 426px) {
+    @media screen and (max-width: 426px) {
       width: 30%;
     }
-    @media (max-width: 322px) {
+    @media screen and (max-width: 322px) {
       width: 40%;
     }
   }

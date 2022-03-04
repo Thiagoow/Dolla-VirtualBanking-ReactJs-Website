@@ -13,11 +13,11 @@ export const ServicesContainer = styled.div`
   align-items: center;
   background: ${containerColor};
 
-  @media (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     height: 1100px;
   }
 
-  @media (max-width: 480px) {
+  @media screen and (max-width: 480px) {
     height: 1300px;
   }
 `;
@@ -27,10 +27,10 @@ export const H1 = styled.h1`
   color: #fff;
   margin-bottom: 4rem;
 
-  @media (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     font-size: 2rem;
   }
-  @media (max-width: 580px) {
+  @media screen and (max-width: 580px) {
     font-size: 1.8rem;
   }
 `;
@@ -44,11 +44,11 @@ export const Wrapper = styled.div`
   grid-gap: 1rem;
   padding: 0 3rem;
 
-  @media (max-width: 1000px) {
+  @media screen and (max-width: 1000px) {
     grid-template-columns: 1fr 1fr;
   }
 
-  @media (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     grid-template-columns: 1fr;
     padding: 0 1.25rem;
   }
@@ -88,7 +88,7 @@ export const P = styled.p`
   font-size: 1.12rem;
   text-align: center;
 
-  @media (max-width: 480px) {
+  @media screen and (max-width: 480px) {
     font-size: 1rem;
   }
 `;
