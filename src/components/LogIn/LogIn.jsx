@@ -10,7 +10,7 @@ import {
   Input,
   Button,
   Text
-} from "./loginStyles";
+} from "./logInStyles";
 
 const LogIn = () => {
   return (
