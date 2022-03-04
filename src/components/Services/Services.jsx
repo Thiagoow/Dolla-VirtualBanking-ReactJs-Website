@@ -11,7 +11,7 @@ import {
 } from "./serviStyles";
 
 import Icon1 from "../../assets/img/svg-1.svg";
-import Icon2 from "../../assets/img/svg-3.svg";
+import Icon2 from "../../assets/img/svg-5.svg";
 import Icon3 from "../../assets/img/svg-4.svg";
 
 const Services = () => {

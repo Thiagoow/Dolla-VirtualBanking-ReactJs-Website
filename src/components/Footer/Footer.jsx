@@ -1,5 +1,6 @@
 import React from "react";
-import { FaBehance, FaGithub, FaLinkedin, FaLink } from "react-icons/fa";
+import { FaBehance, FaGithub, FaLinkedin } from "react-icons/fa";
+import { BiWorld } from "react-icons/bi";
 import {
   FooterContainer,
   Wrapper,
@@ -60,7 +61,7 @@ const Footer = () => {
 
         <SocialMedia>
           <SMwrap>
-            <Logo to="/">dolla</Logo>
+            <Logo to="home">dolla</Logo>
             <Copy>
               ©️ Thiago Silva Lopes - {new Date().getFullYear} All rights
               reserved.
@@ -86,7 +87,7 @@ const Footer = () => {
               </IconLink>
 
               <IconLink href="https://thiagosl.netlify.app" target="_blank">
-                <FaLink />
+                <BiWorld />
               </IconLink>
             </SocialIcons>
           </SMwrap>

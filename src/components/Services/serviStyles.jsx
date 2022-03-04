@@ -6,7 +6,7 @@ const firstColor = "#00bb77";
 const firstAltColor = "#009955";
 
 export const ServicesContainer = styled.div`
-  height: 800px;
+  height: 620px;
   display: flex;
   flex-direction: column;
   justify-content: center;

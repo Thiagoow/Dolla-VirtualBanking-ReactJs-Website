@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import { Link as LinkScroll } from "react-scroll";
 
 const bodyColor = "#f3f3fc";
 const containerColor = "#010606";
@@ -88,7 +89,7 @@ export const SMwrap = styled.div`
   }
 `;
 
-export const Logo = styled(Link)`
+export const Logo = styled(LinkScroll)`
   color: #fff;
   justify-self: start;
   cursor: pointer;

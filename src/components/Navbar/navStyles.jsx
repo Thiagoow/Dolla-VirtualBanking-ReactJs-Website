@@ -9,9 +9,10 @@ const firstAltColor = "#009955";
 
 /*======== Components: ========*/
 export const Nav = styled.nav`
-  background: #000;
+  //If user scroll than the background is black. If not, it's transparent:
+  background: ${({ scrollNav }) => (scrollNav ? "#000" : "transparent")};
   height: ${varHeaderHeight};
-  //margin-top: ${varHeaderHeight};
+  margin-top: -${varHeaderHeight};
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,7 +36,7 @@ export const NavbarContainer = styled.div`
   max-width: 1100px;
 `;
 
-export const NavLogo = styled(Link)`
+export const NavLogo = styled(LinkScroll)`
   color: #fff;
   justify-self: flex-start;
   cursor: pointer;
@@ -89,16 +90,16 @@ export const NavLinks = styled(LinkScroll)`
   height: 100%;
   cursor: pointer;
 
-  &.signUp {
+  /* &.signUp {
     color: ${firstColor};
-  }
+  } */
 
   &:hover {
     color: ${firstAltColor};
   }
 
   &.active {
-    border-bottom: 3px solid ${firstColor};
+    border-bottom: 4px solid ${firstColor};
   }
 `;
 

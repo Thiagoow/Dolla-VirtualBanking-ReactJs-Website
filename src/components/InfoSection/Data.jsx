@@ -1,12 +1,12 @@
-import img1 from "../../assets/img/svg-2.svg";
-import img2 from "../../assets/img/svg-3.svg";
-import img3 from "../../assets/img/svg-4.svg";
+import img1 from "../../assets/img/svg-6.svg";
+import img2 from "../../assets/img/svg-2.svg";
+import img3 from "../../assets/img/svg-3.svg";
 
 export const homeObjOne = {
   id: "about",
-  lightBg: true,
-  lightTxt: false,
-  lightTxtSub: false,
+  lightBg: false,
+  lightTxt: true,
+  lightTxtSub: true,
   imgStart: false,
   img: img1,
   alt: "Piggy bank image",
@@ -15,16 +15,16 @@ export const homeObjOne = {
   subtitle:
     "Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees.",
   buttonTxt: "Get Started",
-  btnPrimary: false,
-  btnDarkTxt: false,
-  btnDarkTxtHover: false
+  btnPrimary: true,
+  btnDarkTxt: true,
+  btnDarkTxtHover: true
 };
 
 export const homeObjTwo = {
   id: "discover",
-  lightBg: false,
-  lightTxt: true,
-  lightTxtSub: true,
+  lightBg: true,
+  lightTxt: false,
+  lightTxtSub: false,
   imgStart: true,
   img: img2,
   alt: "Login screen image",
@@ -33,13 +33,13 @@ export const homeObjTwo = {
   subtitle:
     "We have you covered no matter where you are. All you need is a smartphone or computer and internet connection.",
   buttonTxt: "Learn More",
-  btnPrimary: true,
-  btnDarkTxt: true,
-  btnDarkTxtHover: true
+  btnPrimary: false,
+  btnDarkTxt: false,
+  btnDarkTxtHover: false
 };
 
 export const homeObjThree = {
-  id: "signup",
+  id: "signUp",
   lightBg: true,
   lightTxt: false,
   lightTxtSub: false,

@@ -35,7 +35,10 @@ const HeroSection = () => {
 
         <BtnWrapper>
           <Button
-            to="services"
+            to="signUp"
+            spy={true}
+            exact="true"
+            offset={-80}
             onMouseEnter={onHover}
             onMouseLeave={onHover}
             btnPrimary="true"
