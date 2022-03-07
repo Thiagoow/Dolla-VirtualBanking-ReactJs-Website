@@ -10,4 +10,4 @@ tendo como base o <a href="https://www.youtube.com/watch?v=Nl54MJDR2p8" target="
 do canal do Youtube: <a href="https://www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A" target="_blank">
 Brian Design</a></p>
 
-## Demo: https://dolla-bnk.netlify.app/
+## Demo: https://dolla-bnk.netlify.app
