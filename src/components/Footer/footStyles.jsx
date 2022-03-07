@@ -23,10 +23,11 @@ export const Wrapper = styled.div`
 
 export const LinksContainer = styled.div`
   display: flex;
-  justify-tracks: center;
+  margin-bottom: 2rem;
 
   @media screen and (max-width: 820px) {
     padding-top: 2rem;
+    margin-bottom: 0;
   }
 `;
 

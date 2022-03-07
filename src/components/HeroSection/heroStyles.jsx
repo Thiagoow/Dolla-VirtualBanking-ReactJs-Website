@@ -34,8 +34,11 @@ export const HeroContainer = styled.div`
     );
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (min-width: 768px) and (max-width: 1000px) {
     height: 650px;
+  }
+  @media screen and (max-width: 480px) {
+    height: 700px;
   }
 `;
 
