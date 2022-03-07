@@ -16,7 +16,7 @@ export const HeroContainer = styled.div`
   position: relative;
   z-index: 1;
 
-  //Make the video more btnDarkTxter than the original:
+  //Make the video more darker than the original:
   :before {
     content: "";
     position: absolute;
@@ -32,6 +32,10 @@ export const HeroContainer = styled.div`
       rgba(0, 0, 0, 0.2) 0%,
       transparent 100%
     );
+  }
+
+  @media screen and (max-width: 768px) {
+    height: 650px;
   }
 `;
 

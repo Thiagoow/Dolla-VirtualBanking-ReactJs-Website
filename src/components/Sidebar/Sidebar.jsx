@@ -19,16 +19,45 @@ const Sidebar = ({ isOpen, toggle }) => {
 
       <Wrapper>
         <Menu>
-          <SideLinks to="about" onClick={toggle}>
+          <SideLinks
+            to="about"
+            onClick={toggle}
+            spy={true}
+            exact="true"
+            offset={-80}
+            activeClass="active"
+          >
             About
           </SideLinks>
-          <SideLinks to="discover" onClick={toggle}>
+          <SideLinks
+            to="discover"
+            onClick={toggle}
+            spy={true}
+            exact="true"
+            offset={-80}
+            activeClass="active"
+          >
             Discover
           </SideLinks>
-          <SideLinks to="services" onClick={toggle}>
+          <SideLinks
+            to="services"
+            onClick={toggle}
+            spy={true}
+            exact="true"
+            offset={-80}
+            activeClass="active"
+          >
             Services
           </SideLinks>
-          <SideLinks to="services" className="signUp" onClick={toggle}>
+          <SideLinks
+            to="signUp"
+            className="signUp"
+            onClick={toggle}
+            spy={true}
+            exact="true"
+            offset={-80}
+            activeClass="active"
+          >
             Sign Up
           </SideLinks>
         </Menu>

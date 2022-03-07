@@ -103,13 +103,25 @@ export const BtnWrap = styled.div`
 `;
 
 export const ImgWrap = styled.div`
-  max-width: 555px;
+  max-width: 500px;
   height: 100%;
+
+  @media screen and (max-width: 768px) {
+    //Center the img:
+    text-align: center;
+  }
 `;
 
 export const Img = styled.img`
-  width: 100%;
+  width: 90%;
   margin-bottom: 10px;
   //top right bottom left
   padding-right: 0;
+
+  @media screen and (max-width: 768px) {
+    width: 80%;
+  }
+  @media screen and (max-width: 480px) {
+    width: 90%;
+  }
 `;

@@ -13,8 +13,12 @@ export const ServicesContainer = styled.div`
   align-items: center;
   background: ${containerColor};
 
+  @media screen and (max-width: 1000px) {
+    height: 950px;
+  }
+
   @media screen and (max-width: 768px) {
-    height: 1100px;
+    height: 1200px;
   }
 
   @media screen and (max-width: 480px) {
@@ -70,6 +74,24 @@ export const Card = styled.div`
     transform: scale(1.02);
     transition: all 0.2 ease-in-out;
     cursor: pointer;
+  }
+
+  @media screen and (max-width: 768px) {
+    justify-self: center;
+    width: 65%;
+
+    //Space between every other card:
+    &:not(:last-child) {
+      margin-bottom: 0.6rem;
+    }
+  }
+
+  @media screen and (max-width: 620px) {
+    width: 80%;
+  }
+
+  @media screen and (max-width: 480px) {
+    width: 95%;
   }
 `;
 

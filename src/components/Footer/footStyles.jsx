@@ -23,7 +23,7 @@ export const Wrapper = styled.div`
 
 export const LinksContainer = styled.div`
   display: flex;
-  justify-content: center;
+  justify-tracks: center;
 
   @media screen and (max-width: 820px) {
     padding-top: 2rem;
@@ -41,7 +41,8 @@ export const LinksWrapper = styled.div`
 export const LinkItens = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  //👇🏽 Or flex-start:
+  align-items: center;
   margin: 1rem;
   text-align: left;
   width: 160px;
@@ -56,7 +57,7 @@ export const LinkItens = styled.div`
 `;
 
 export const LinkTitle = styled.h1`
-  font-size: 0.8rem;
+  font-size: 1rem;
   margin-bottom: 1rem;
 `;
 
@@ -64,7 +65,7 @@ export const FooterLink = styled(Link)`
   color: #fff;
   text-decoration: none;
   margin-bottom: 0.5rem;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 
   &:hover {
     color: ${firstColor};

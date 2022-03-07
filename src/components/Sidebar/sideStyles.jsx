@@ -68,6 +68,13 @@ export const SideLinks = styled(LinkScroll)`
     transition: 0.2s ease-in-out;
   }
 
+  &.active {
+    color: ${firstColor};
+    &:hover {
+      color: ${firstAltColor};
+    }
+  }
+
   &.signUp {
     content: "";
     //position: relative;
