@@ -86,7 +86,7 @@ const Footer = () => {
                 <FaLinkedin />
               </IconLink>
 
-              <IconLink href="https://thiagosl.netlify.app" target="_blank">
+              <IconLink href="https://thiagosl.vercel.app" target="_blank">
                 <BiWorld />
               </IconLink>
             </SocialIcons>
